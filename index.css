@@ -1,0 +1,14 @@
+.tamano-tarjetas {
+    background-color: aquamarine;
+}
+
+.cuadrado {
+    height: 70px;
+    width: 70px;
+}
+
+.row {
+    display: flex;
+
+
+}
