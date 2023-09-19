@@ -1,14 +1,124 @@
-.tamano-tarjetas {
-    background-color: aquamarine;
-}
-
-.cuadrado {
-    height: 70px;
-    width: 70px;
-}
-
-.row {
+.content{
     display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 95vw;
+    height: 90vh;
+    margin: 0 auto;
+    
+    
+}
+
+.left-side{
+    width: 50%;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-side .box{
+    width: 90%;
+    height: calc(85vh/3);
+    margin: 10px;
+
+    border-radius: 1%;
+    background: white;
+    
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: gray;
+}
+
+.metodos{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+span{
+    font-size: 1vw;
+}
+
+.tarjeta-metodo{
+    background: skyblue;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+.tarjetitas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 1px auto;
+    width: 100%;
+    height: 100%;
+    
+}
 
 
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+.compra{
+    background: yellow;
+    height: 200%;
+    width: 50%;
+    
+}
+
+.right:not(.compra) {
+    width: 50%;
+    margin: 10px;
+    height: 100%;
+}
+
+.right{
+    position: relative;
+    border-radius: 1%;
+    background: white;
+    width: 90% !important;
+}
+
+.azul{
+    display: flex;
+    flex-direction: column;
+    background: blue;
+    height: 40%;
+    color: white;
+    font-weight: 600;
+}
+
+.azul span.total{
+    margin: 1em;
+}
+.avioncito{
+    position: absolute;
+    right: 1em;
+    font-size: 2em;
+    top: 0.3em;
+    color: white;
+}
+
+.platita{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: black;
+    position: absolute;
+    top: 0.8em;
+    left: 0.3em;
+    color: white;
+    
 }
